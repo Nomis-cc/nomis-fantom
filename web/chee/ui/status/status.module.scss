@@ -1,0 +1,30 @@
+.status {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+
+  &::before {
+    content: "•";
+    font-size: 1.5rem;
+  }
+
+  &.initial::before {
+    color: hsla(0, 80%, 70%, 100%);
+  }
+
+  &.connected::before {
+    color: hsla(200, 80%, 70%, 100%);
+  }
+
+  &.fetched::before {
+    color: hsla(150, 80%, 70%, 100%);
+  }
+
+  &.minted::before {
+    color: hsla(100, 80%, 70%, 100%);
+  }
+}

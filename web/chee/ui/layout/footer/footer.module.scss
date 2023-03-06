@@ -1,0 +1,23 @@
+$color-heading: white;
+$color-hidden: rgba(white, 40%);
+
+.footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .logo {
+    text-transform: uppercase;
+    font-size: 2rem;
+    line-height: 1em;
+    font-family: "Space Grotesk", "Inter", sans-serif;
+    color: $color-heading;
+    letter-spacing: -0.02em;
+    font-weight: 500;
+  }
+  .powered {
+    color: $color-hidden;
+    font-size: 0.75rem;
+    font-weight: 200;
+  }
+}

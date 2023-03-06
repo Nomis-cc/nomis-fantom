@@ -1,0 +1,26 @@
+$color-overlay-1: rgba(white, 5%);
+
+.address {
+  padding: 0.25rem 0.75rem 0.25rem 0.25rem;
+  background: $color-overlay-1;
+  display: flex;
+  width: fit-content;
+  gap: 0.25rem;
+  border-radius: 999px;
+  font-size: 1.25rem;
+  margin: auto;
+  margin-bottom: 4rem;
+  pointer-events: none;
+
+  &::before {
+    content: "0x";
+    font-feature-settings: "liga" 0;
+    padding: 0 0.5rem;
+    background: $color-overlay-1;
+    border-radius: 999px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

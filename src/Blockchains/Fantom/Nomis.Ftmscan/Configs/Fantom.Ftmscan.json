@@ -1,0 +1,28 @@
+{
+  "FtmscanSettings": {
+    "ApiKey": "62AVZVTIHV9BF13B32MTMFDDK3P48FM3DJ",
+    "ApiBaseUrl": "https://api.ftmscan.com/",
+    "BlockchainDescriptor": {
+      "ChainId": 250,
+      "ChainName": "Fantom Opera",
+      "BlockchainName": "Fantom",
+      "BlockchainSlug": "fantom",
+      "BlockExplorerUrls": [
+        "https://ftmscan.com/"
+      ],
+      "RPCUrls": [
+        "https://rpc.fantom.network",
+        "https://rpc2.fantom.network",
+        "https://rpcapi.fantom.network",
+        "https://fantom.blockpi.network/v1/rpc/public",
+        "https://1rpc.io/ftm",
+        "https://rpc.ftm.tools",
+        "https://rpc.ankr.com/fantom"
+      ],
+      "IsEVMCompatible": true,
+      "SBTContractAddresses": {
+        "Finance": "0x4d5f06cC2A7d3a625C95D04Cfaec5AEb5eCfA33D"
+      }
+    }
+  }
+}

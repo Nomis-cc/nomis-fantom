@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .cheeLogo {
+    img {
+      height: 4rem;
+      width: fit-content;
+    }
+  }
+}

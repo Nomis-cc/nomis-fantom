@@ -1,0 +1,39 @@
+.button {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.25rem 1rem 0.25rem 0.25rem;
+  border-radius: 999px;
+  border: none;
+  align-items: center;
+  cursor: pointer;
+  background: rgba(white, 0.1);
+  transition: all 0.2s ease-in-out;
+  backdrop-filter: blur(1rem);
+  -webkit-backdrop-filter: blur(1rem);
+  font-size: 1rem;
+
+  &:hover {
+    background: rgba(white, 0.15);
+    transform: translateY(-0.25rem);
+  }
+
+  &:active {
+    background: rgba(white, 0.2);
+    transform: scale(0.975) translateY(-0.125rem);
+  }
+
+  &:disabled {
+    background: rgba(white, 0.05);
+    cursor: not-allowed;
+    transform: none;
+  }
+
+  img {
+    $size: 2rem;
+    width: $size;
+    height: $size;
+    background: rgba(white, 0.05);
+    padding: 0.125rem;
+    border-radius: 999px;
+  }
+}

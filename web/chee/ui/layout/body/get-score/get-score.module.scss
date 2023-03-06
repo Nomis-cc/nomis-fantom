@@ -1,0 +1,20 @@
+$color-hidden: rgba(white, 40%);
+
+.connect {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .hint {
+    margin-top: -1.5rem;
+    color: $color-hidden;
+
+    span {
+      color: white;
+    }
+  }
+}

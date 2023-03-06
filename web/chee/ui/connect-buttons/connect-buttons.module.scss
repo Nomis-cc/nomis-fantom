@@ -1,0 +1,22 @@
+$color-overlay-1: rgba(white, 5%);
+$color-overlay-2: rgba(white, 10%);
+
+.connect {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .connector {
+    border: none;
+    background: $color-overlay-1;
+    padding: 0.5rem 1rem;
+    border-radius: 999px;
+    transition: background 0.2s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+      background: $color-overlay-2;
+    }
+  }
+}
